@@ -28,7 +28,7 @@
 /**
  * Marlin release version identifier
  */
-//#define SHORT_BUILD_VERSION "bugfix-2.1.x"
+//#define SHORT_BUILD_VERSION "bugfix-2.1.x-HeavyMoon"
 
 /**
  * Verbose version identifier which should contain a reference to the location
@@ -41,12 +41,12 @@
  * here we define this default string as the date where the latest release
  * version was tagged.
  */
-//#define STRING_DISTRIBUTION_DATE "2022-07-13"
+//#define STRING_DISTRIBUTION_DATE "2022-07-16"
 
 /**
  * Defines a generic printer name to be output to the LCD after booting Marlin.
  */
-//#define MACHINE_NAME "3D Printer"
+//#define MACHINE_NAME "AnyCubic i3 Mega"
 
 /**
  * The SOURCE_CODE_URL is the location where users will find the Marlin Source
