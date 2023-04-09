@@ -60,6 +60,17 @@
 #endif
 #if SERIAL_IN_USE(3) && (CHECK_SERIAL_PIN(14) || CHECK_SERIAL_PIN(15))
   #error "Serial Port 3 pin D14 and/or D15 conflicts with another pin on the board."
+
+  #if SERIAL_IN_USE(3)
+    # error "SERIAL PORT 3 IN USE"
+  #endif
+  #if CHECK_SERIAL_PIN(14)
+    # error "pin D14 IN USE"
+  #endif
+  #if CHECK_SERIAL_PIN(15)
+    # error "pin D15 IN USE"
+  #endif
+
 #endif
 #undef CHECK_SERIAL_PIN
 
